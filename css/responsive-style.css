@@ -1,0 +1,94 @@
+/* *********************************************************** */
+@media (max-width:1170px) {
+    .section-subtitle {
+        max-width: 60%;
+    }
+
+    .banner_section .carousel-item {
+        height: 90vh;
+    }
+}
+
+/* *********************************************************** */
+@media (max-width:991px) {
+    .about .banner_section,
+    .product .banner_section,
+    .gallery .banner_section,
+    .contact .banner_section,
+    .distributors .banner_section {
+        padding-top: 12.5rem;
+        padding-bottom: 3rem;
+}   
+
+.header .navbar {
+    background-size: cover;
+    padding: 2rem;
+}
+
+.header .navbar-nav {
+    margin-top: 2rem;
+}
+
+.header .navbar-nav .nav-link {
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 1rem;
+}   
+
+.header .header_right span {
+    padding: 0.2rem 0.5rem;
+}
+
+}
+/* *********************************************************** */
+@media (max-width:767px) {
+    body,html {
+        font-size: 8px;
+    }
+
+    .section-subtitle {
+        max-width: 80%;
+    }
+
+    .banner_section {
+        min-height: 70vh;
+    }
+
+    .banner_section .carousel-item {
+        height: 70vh;
+    }
+    .landing_about_section .row {
+        display: flex;
+        flex-wrap: wrap; /* ترتيب النص أسفل الصورة */
+        text-align: start; /* محاذاة النص إلى المنتصف */
+    }
+
+    .landing_about_section .col-xl-5,
+    .landing_about_section .col-lg-6,
+    .landing_about_section .col-sm-8 {
+        width: 55%; /* النصوص تأخذ العرض بالكامل */
+    }
+    .landing_about_section h2 {
+        font-size: 2rem; /* تصغير حجم العنوان */
+    }
+
+    .landing_about_section p {
+        font-size: 1.4rem; /* تصغير النصوص */
+        line-height: 1.5; /* تحسين قراءة النصوص */
+        margin-bottom: 1rem;
+    }
+
+    .landing_about_section img {
+        max-width: 100%; /* جعل الصورة متجاوبة */
+        height: auto; /* المحافظة على نسبة الطول إلى العرض */
+        margin-bottom: 1rem; /* مسافة بين الصورة والنصوص */
+    }
+}
+
+/* *********************************************************** */
+@media (max-width:590px) {
+    body,html {
+        font-size: 7px;
+    }
+
+
+}
